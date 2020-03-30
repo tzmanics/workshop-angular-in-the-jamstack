@@ -13,11 +13,15 @@ Each section of the workshop will cover an aspect of creating a Jamstack applica
 Here's what we'll cover:
 
 0. [Workshop Setup](https://github.com/tzmanics/workshop-angular-in-the-jamstack/tree/master/_step-0_setup): feel free to do this before the workshop
-1. What is the Jamstack? What is Angular in the Jamstack?
+1. [What is the Jamstack? What is Angular in the Jamstack?](https://github.com/tzmanics/workshop-angular-in-the-jamstack/blob/master/README.md) (you are here)
 1. [Building a Base Project](https://github.com/tzmanics/workshop-angular-in-the-jamstack/tree/master/_step-1_base-project): Covering the CDN
 1. [Pre-rendering the Home Page](https://github.com/tzmanics/workshop-angular-in-the-jamstack/tree/master/prerendered-home-page): Pre-rendering perks & [Scully](https://scully.io/) the Angular static site generator
 1. [Adding a Contact Form](https://github.com/tzmanics/workshop-angular-in-the-jamstack/tree/master/add-contact-form): Handling forms & atomic deploys
 1. [Adding a Blog](https://github.com/tzmanics/workshop-angular-in-the-jamstack/tree/master/adding-a-blog): Discussing the git workflow
 1. [Adding Search](https://github.com/tzmanics/workshop-angular-in-the-jamstack/tree/master/adding-search): Utilizing the Jamstack ecosystem
 
-We will make sure there is time for questions and discussion at the end of the workshop. You can also feel free to reach out to me on [twitter](https://twitter.com/tzmanics).
+> We will make sure there is time for questions and discussion at the end of the workshop. You can also feel free to reach out to me on [twitter](https://twitter.com/tzmanics).
+
+## What is the Jamstack?
+
+## What is Angular in the Jamstack?

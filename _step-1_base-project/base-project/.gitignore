@@ -45,6 +45,3 @@ testem.log
 .DS_Store
 Thumbs.db
 
-netlifyConfig.json
-# Local Netlify folder
-.netlify
