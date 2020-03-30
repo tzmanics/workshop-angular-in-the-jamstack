@@ -89,7 +89,9 @@ Netlify will take all information and use it to build and deploy the project to 
 
 ### Some Schematics Antics
 
-Although, we can see our site is live. There is some funny business with the redirects when serving an Angular site. Once the site is built the `index.html` page is served and goes to the correct route for each link. Yet, on a refresh the path to the correct page is lost. Don't fret though, I have an easy solution: [netlify-schematics](https://github.com/tzmanics/netlify-schematics). These schematics will set up a configuration file that handles the redirects and also saves the build command and project directory information. Netlify has those last two pieces of data saved from the `init` command we ran, but the config makes for a good place to change that information (#foreshadowing). Let's get these schematics added.
+Although, we can see our site is live. There is some funny business with the redirects when serving an Angular site. Once the site is built the `index.html` page is served and goes to the correct route for each link. Yet, on a refresh the path to the correct page is lost. Don't fret though, I have an easy solution: [netlify-schematics](https://github.com/tzmanics/netlify-schematics).
+
+These schematics will set up a configuration file that handles the redirects and also saves the build command and project directory information. Netlify has those last two pieces of data saved from the `init` command we ran, but the config makes for a good place to change that information (#foreshadowing). Let's get these schematics added.
 
 ```bash
 ng add netlify-schematics

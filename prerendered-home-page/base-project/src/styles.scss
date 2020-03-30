@@ -3,9 +3,18 @@ body {
   height: 100%;
 }
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  background: url(https://bit.ly/2QLtEKB) no-repeat bottom center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Mukta", sans-serif;
+  font-weight: 200;
 }
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 100;
+  font-size: 80px;
+  margin: 50px 0 0 0;
+  text-align: center;
 }
