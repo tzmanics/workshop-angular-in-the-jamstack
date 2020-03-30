@@ -12,11 +12,29 @@ Before we jump into the code lets look at some Jamstack best practices we're put
 
 ### Entire Project on a CDN
 
+We've touched the topic of Content Delivery Networks (CDNs) but what exactly are they. The easiest, most high-level way that made sense to me is that they are servers without the complex logic. These dumb servers (rude, I know) are globally distributed and have the ability to re-route content. The global redundancy allows data to travel fast, and stay close to where the users accessing it is.
+
+This, does not solve global latency because a solution does not exist. The best solution to latency is finding the person who wants to view your site, and showing them your site from your laptop. I also find this "solution" to be super uncomfortable, so I definitely choose the CDN option. All this to say, globally distributed CDNs, that can re-route your content if anything goes wrong offer a reliable and fast solution to delivering your content.
+
+There are even more powerful CDN services that providers are offering now. Your CDN provider can also pre-render pages, run build, provide automatic deploys, rollback, cache invalidation, and git-integrated CI/CD.
+
 ### Everything Lives on Git
+
+Did someone say Git? I love Git. It's because just the rudimentary functions of Git are to make the developer experience not suck. All I'm saying is that the ability to `git reset HEAD --hard` has saved my from throwing my computer out a window on many occasions. This isn't the only reason for the Jamstack approach to rely so heavily on Git.
+
+Having your project live on Git makes it accessible to many developers and organizes contributions so that development can happen faster and more smoothly. If Janelle wants to change the user interaction on the company blog. She can clone or fork the repo, make a PR for the changes, and once she gets a review push the changes to trigger a production build and make her changes live.
+
+The Git workflow allows you to have a continuous, immutable and atomic deployment process. These all work hand-in-hand to help developers code fast and _NOT_ break things. Or at least be able to roll it back if you do, inevitably, break something.
+
+![erase all pictures of ron gif](https://media3.giphy.com/media/bN4mdVrlylv5S/giphy.gif?cid=ecf05e4793f45f649c17a092a69047d0e5ddc9512c137d0b&rid=giphy.gif)
 
 ### CI/CD as Easy as 1-2-3
 
-## Time to Code
+As we'll see in this exercise we can automate the deployment process to the CDN. We'll use Netlify's process because it's as simple as feeding in your build command and output directory. Behind the scenes the work is done to find your repo, and listen for a push of code to trigger a build. Automating steps like this cuts out tedious processes in the development process. If only more things in life could be automated, like cutting your nails. I mean you cut 'em once and then there they are again.
+
+Okay, there are more resources for further reading at the end og this page. Let's jump into the code!
+
+# Time to Code
 
 To start of we'll clone the base project locally. Since there are many different parts to this workshop you can either choose to make a directory for each section or build one project that has all the enhancements. Either way, for this step create a directory and clone the project inside.
 
