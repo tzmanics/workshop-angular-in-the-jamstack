@@ -1,0 +1,65 @@
+.home-words {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+  margin: 0 auto;
+  padding: 10px 10%;
+  p {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.home-box {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 150px auto;
+  padding: 0;
+  width: 90%;
+  p {
+    margin-top: 20px;
+  }
+}
+
+.home-card {
+  max-width: 285px;
+  margin: 0 auto;
+  h1 {
+    font-size: 25px;
+    text-align: left;
+  }
+}
+
+img {
+  margin: 0 !important;
+  width: 100%;
+}
+
+@media (max-device-width: 480px) {
+  .app-home {
+    min-width: 0;
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  .home-box {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .home-words {
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .home-card {
+    font-size: 20px;
+    width: 100%;
+    h1 {
+      font-size: 25px;
+    }
+  }
+}

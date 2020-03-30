@@ -1,0 +1,17 @@
+<h1>The Latest Jamgular Posts</h1>
+<div class="blog-posts">
+  <ul>
+    <li *ngFor="let post of posts$ | async">
+      <hr />
+      <a [routerLink]="post.route">
+        <div class="post-card">
+          <h2>
+            {{ post.title }}
+          </h2>
+          <p>{{ post.date }} | {{ post.authors }}</p>
+          <b> {{ post.description }}</b>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
