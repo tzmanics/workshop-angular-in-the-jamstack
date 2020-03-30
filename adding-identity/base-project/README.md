@@ -1,5 +1,9 @@
 # BaseProject
 
+This is a base project for the [Angular in the Jamstack: From "i dunno" 🤷🏻‍♀️ to pro 💁🏻‍♀️!](https://github.com/tzmanics/workshop-angular-in-the-jamstack). It's an Angular project with a few routes and components ready to become a real boy...I mean a Jamstack site 😀.
+
+## The CLI spiel:
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
 ## Development server
