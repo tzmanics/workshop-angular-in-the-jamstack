@@ -1,0 +1,7 @@
+[build]
+  publish = "dist/base-project"
+  command = "ng build --prod"
+[[redirects]]
+  from="/*"
+  to="/index.html"
+  status=200
