@@ -1,10 +1,10 @@
 # Creating a Pre-rendered Home Page
 
-One of the fundamental elements of creating a site with the Jamstack architecture is pre-rendering content. This allows for faster delivery of your content, fewer security vulnerabilities, and immutable content. Along with pre-rendering the page we're going to work on we'll also be storing out static assets in cloud-based image service, Cloudinary (also referred to as a Digital Asset Management). One less thing we have to manage or worry about. Yay!
+One of the fundamental elements of creating a site with the Jamstack architecture is pre-rendering content. This allows for faster delivery of your content, fewer security vulnerabilities, and immutable content. Along with pre-rendering the page we're going to be storing static assets in a cloud-based image service, [Cloudinary](https://cloudinary.com/). One less thing we have to manage ourselves or worry about. Yay!
 
 ## Cloud Content
 
-There are many benefits to having your media stored somewhere that isn't your project! Git is made to manage code, media files? Not really their forte. Having a site that is dedicated to that is a great way of delegating tasks to skilled providers. We're using Cloudinary today but there are others too ([Bynder](https://www.bynder.com/en/), [Brandfolder](https://brandfolder.com/), [Netlify](https://www.netlify.com/blog/2019/02/26/manage-your-code-and-assets-together-with-netlify-large-media/)).
+There are many benefits to having your media stored somewhere that isn't your project. Git is made to manage code, but media files? Not really their forte. Having a site that is dedicated to that is a great way of delegating tasks to skilled providers. We're using Cloudinary today but there are others too (like [Netlify](https://www.netlify.com/products/large-media/?utm_source=blog&utm_medium=pre-render_tzm&utm_campaign=devex) or [Imgix](https://www.imgix.com/)).
 
 ## Premeditative Pre-rendering
 
@@ -14,11 +14,11 @@ To be fair, there has been one. Angular Universal gave you the option to pre-ren
 
 ## The Angular SSG is Out There
 
-Finally! Hero Devs to the rescue. At the end of last year the team at Hero Devs released the alpha version of Scully, Angular's first, designated static site generator (SSG). Not only does Scully make it ridiculously easy to pre-render any Angular (even Angular.js) site but it does via familiar Angular commands. We've been waiting for this for a while and the team keeps improving it everyday. They are super open to feedback, [so join the fun!](https://github.com/scullyio/scully)
+Finally! [HeroDevs](https://herodevs.com/) to the rescue. At the end of last year the team at [HeroDevs released the alpha version](https://www.netlify.com/blog/2019/12/16/introducing-scully-the-angular-static-site-generator/?utm_source=blog&utm_medium=pre-render_tzm&utm_campaign=devex) of [Scully](https://scully.io/), Angular's first, designated static site generator (SSG). Not only does Scully make it ridiculously easy to pre-render any Angular site (even Angular.js). On top of that it does it with familiar Angular commands. We've been waiting for this for a while and the team keeps improving it everyday. They are super open to feedback, [so join the fun!](https://github.com/scullyio/scully)
 
-This was a clear signal that the Angular community is invested in being a part of the Jamstack architecture and ecosystem. For so long Angular was left out of the Jamstack conversation and it could be because the Angular community didn't know what all the Jamstack could do. But it's clear that the tools to create a clear path of Angular integration haven't existed before. The creation of Scully was a huge step on this path and I can not wait to see what comes next.
+This was a clear signal that the Angular community is invested in being a part of the Jamstack architecture and ecosystem. For so long Angular was left out of the Jamstack conversation and it could be because [the Angular community didn't know what all the Jamstack could do](https://www.netlify.com/blog/2019/10/30/whats-angular-in-the-jamstack-it-sounds-delicious/?utm_source=blog&utm_medium=pre-render_tzm&utm_campaign=devex). But it's clear that the tools to create a clear path of Angular integration haven't existed before. The creation of Scully was a huge step on this path and I can not wait to see what comes next.
 
-_Immediately_ next, tho, is us coding some pre-rendered Angular together.
+_Immediately_ next, though, is us coding some pre-rendered Angular together!
 
 # Time to Code
 
