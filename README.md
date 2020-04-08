@@ -19,7 +19,7 @@ Here's what we'll cover:
 1. [Adding a Contact Form](https://github.com/tzmanics/workshop-angular-in-the-jamstack/tree/master/add-contact-form)
 1. [Adding a Pre-rendered Blog](https://github.com/tzmanics/workshop-angular-in-the-jamstack/tree/master/adding-a-blog)
 1. [Adding Identity for Login/Sign up](https://github.com/tzmanics/workshop-angular-in-the-jamstack/tree/master/adding-identity)
-1. [The Wrap Up & Resources]()
+1. [The Wrap Up & Resources](https://github.com/tzmanics/workshop-angular-in-the-jamstack/tree/master/the-wrap-up)
 
 ## What is the Jamstack?
 
