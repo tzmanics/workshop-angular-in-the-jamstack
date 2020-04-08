@@ -8,18 +8,13 @@ description: >-
 authors:
   - Tara Z. Manicsic
 date: "2020-04-03"
-lastmod: "2020-04-03"
-topics:
-  - tutorials
-tags:
-  - Angular
-tweet: ""
-format: blog
 seo:
   metadescription: >-
     Learn how to start transitioning Angular sites to the Jamstack. In this tutorial, we pre-render homepage content using Scully and store assets on the cloud. Get up and deployed in no time!
   metatitle: Create Fast, Pre-rendered Pages in Angular using Scully
 ---
+
+# Creating a Pre-rendered Home Page with Angular and Scully
 
 One of the fundamental elements of creating a site with the Jamstack architecture is pre-rendering content. This allows for faster delivery of your content, fewer security vulnerabilities, and immutable content. For this post, we will be storing static images in [Cloudinary](https://cloudinary.com/), a cloud service for images while also pre-rendering our assets. This means one less thing we have to manage ourselves or worry about. Yay!
 
