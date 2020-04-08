@@ -40,6 +40,8 @@ Now that Angular has finally cemented its place in the Jamstack landscape with S
 
 In this exercise we're going to start by adding a few images and some text. Basically, we want to populate the page and get comfortable with optimizing and adding content from the cloud. Then we'll use Scully to create a pre-rendered, static version of our site.
 
+![what the site will look like](https://res.cloudinary.com/dzkoxrsdj/image/upload/v1585572281/Screen_Shot_2020-03-30_at_8.43.37_AM_bfv4nq.jpg)
+
 > [🐙 Here's a link to the repository of the final project in all its coded glory](https://github.com/tzmanics/workshop-angular-in-the-jamstack/tree/master/prerendered-home-page/prerendered-home-page).
 
 Here are the steps to today's coding adventure:
@@ -269,7 +271,7 @@ ng add @scullyio/init
 
 As you can see from the output, the Scully schematics updated a few files (`app.module.ts`, `polyfills.ts`, and `package.json`) and created a `scully.base-project.config.js` file. Since this project is a clone of the [our base project](https://github.com/tzmanics/base-project_final) it has taken the name information from the `angular.json` file to set this file name.
 
-![screenshot of scully output](/img/blog/screenshot-of-scully-output.jpg)
+![screenshot of scully output](https://res.cloudinary.com/dzkoxrsdj/image/upload/v1585573969/Screen_Shot_2020-03-30_at_9.07.11_AM_byihrb.jpg)
 
 We want to make sure we run the build command `ng build (or ng build --prod)` before we run Scully with `npm run scully`. Scully traverses the project to get information on the routes and pre-renders the content, so we build the project to have the most up-to-date version ready for Scully. Instead of having to run these commands each time we can make two scripts, `jam` and `jam-prod` in the `package.json` file.
 
