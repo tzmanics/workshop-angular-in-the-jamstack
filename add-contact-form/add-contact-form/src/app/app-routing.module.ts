@@ -5,25 +5,32 @@ const routes: Routes = [
   {
     path: "contact",
     loadChildren: () =>
-      import("./contact/contact.module").then(m => m.ContactModule)
+      import("./contact/contact.module").then((m) => m.ContactModule),
   },
   {
     path: "shop",
-    loadChildren: () => import("./shop/shop.module").then(m => m.ShopModule)
+    loadChildren: () => import("./shop/shop.module").then((m) => m.ShopModule),
   },
   {
     path: "about",
-    loadChildren: () => import("./about/about.module").then(m => m.AboutModule)
+    loadChildren: () =>
+      import("./about/about.module").then((m) => m.AboutModule),
   },
   {
     path: "",
-    loadChildren: () => import("./home/home.module").then(m => m.HomeModule)
+    loadChildren: () => import("./home/home.module").then((m) => m.HomeModule),
   },
-  { path: 'success', loadChildren: () => import('./form-success/form-success.module').then(m => m.FormSuccessModule) }
+  {
+    path: "form-success",
+    loadChildren: () =>
+      import("./form-success/form-success.module").then(
+        (m) => m.FormSuccessModule
+      ),
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule {}
