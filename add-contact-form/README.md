@@ -165,7 +165,7 @@ This is where I would push a commit of the changes. You can always have `ng serv
 
 ### Smells Like Success
 
-This next step isn't necessary but is a nice feature to add, imho. If we add an attribute to called `action` we can set it to a route and on a successful submission it will route the user to that page. In here we'll have it go to `/success`.
+This next step isn't necessary but is a nice feature to add, imho. If we add an attribute to called `action` we can set it to a route and on a successful submission it will route the user to that page. In here we'll have it go to `/form-success`.
 
 ```html
 <form
@@ -173,14 +173,14 @@ This next step isn't necessary but is a nice feature to add, imho. If we add an 
   class="contact-form"
   method="POST"
   data-netlify="true"
-  action="/success"
+  action="/form-success"
 ></form>
 ```
 
 Now let's make success! We'll generate a module to create a super simple success page. Netlify does give a default success page but I like the personalization of a success page that keeps on brand with the rest of the site. We'll run this code to create that page and make two simple edit.
 
 ```bash
-ng g m form-success --route success --module app.module
+ng g m form-success --route form-success --module app.module
 ```
 
 The two simple edits will be adding a message to the template:
@@ -204,7 +204,7 @@ h2 {
 }
 ```
 
-Although we can't see the form actions via `ng serve` we can look to make sure the pages are styling correctly and have the information we want. We can just head over to [localhost:4200/contact](http://localhost:4200/contact) and [localhost:4200/success](http://localhost:4200/success) to see that the content and styling looks ok.
+Although we can't see the form actions via `ng serve` we can look to make sure the pages are styling correctly and have the information we want. We can just head over to [localhost:4200/contact](http://localhost:4200/contact) and [localhost:4200/form-success](http://localhost:4200/form-success) to see that the content and styling looks ok.
 
 ![screenshot of of the form](https://res.cloudinary.com/dzkoxrsdj/image/upload/v1585587663/Screen_Shot_2020-03-30_at_12.58.59_PM_dhwmvk.jpg)
 ![screenshot of the success page](https://res.cloudinary.com/dzkoxrsdj/image/upload/v1585587665/Screen_Shot_2020-03-30_at_1.00.26_PM_z5wqm5.jpg)
