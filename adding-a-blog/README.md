@@ -1,6 +1,12 @@
 # Adding a Blog
 
-from base project
+Can you guess what we're going to do in this section of the workshop? That's right it's time to build out a blog for our website. Many company websites have a blog because it's a great way to keep your users updated on your company, your product, and technology or happenings in your community.
+
+Thankfully, [Scully]() gives us a super simple way to create a pre-rendered blog with Angular.
+
+## Project Setup
+
+##
 
 ng generate @scullyio/init:blog
 
@@ -33,10 +39,10 @@ add blog routes
 blog-root.component.ts
 
 ```js
-import { Component, OnInit } from "@angular/core";
-import { ScullyRoute, ScullyRoutesService } from "@scullyio/ng-lib";
-import { Observable } from "rxjs";
-import { map } from "rxjs/operators";
+import { Component, OnInit } from '@angular/core';
+import { ScullyRoute, ScullyRoutesService } from '@scullyio/ng-lib';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 ```
 
 ```js
