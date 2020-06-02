@@ -1,5 +1,11 @@
 # Angular in the Jamstack
 
+We did it! Ok, maybe you didn't fully complete the workshop but at the very least you made it to the wrap up page!! 🎉
+
+Here are some of the treasures/resources I covered or touched on during the workshop. 
+
+Please feel free to submit a PR to add more 💜!
+
 ## LINKS
 
 ### Websites
